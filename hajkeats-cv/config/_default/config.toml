@@ -1,0 +1,91 @@
+baseURL = "https://hajkeats.github.io/"
+languageCode = "en-gb"
+title = "Howard Keats"
+theme = "hugo-coder"
+
+defaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsStyle = "b2"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+[params]
+    author = "Howard Keats"
+    description = "Howard Keats's personal website"
+    keywords = "developer,personal"
+    info = "Software and DevOps Engineer"
+    avatarURL = "images/avatar.jpg"
+
+    dateFormat = "January 2, 2006"
+
+    hideFooter = false
+    hideCredits = true
+    hideCopyright = false
+    since = 2019
+
+    rtl = false
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorScheme = "dark"
+
+    # Hide the toggle button, along with the associated vertical divider
+    hideColorSchemeToggle = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Enable Twemoji
+    enableTwemoji = true
+
+    # Custom CSS
+    customCSS = []
+
+    # Custom SCSS
+    customSCSS = []
+
+    # Custom JS
+    customJS = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github"
+    weight = 1
+    url = "https://github.com/hajkeats/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/howard-keats/"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 1
+
+#  [[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    url = "/projects/"
+#    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
