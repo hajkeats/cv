@@ -9,6 +9,8 @@ Software and DevOps Engineer with experience as a part of an Agile team, strong 
 # Key Skills and Technologies
 ---
 
+{{< image src="/images/python-skill.jpg" alt="Pluralsight Python skill rating" style="float:right">}}
+
 * [Python](https://www.python.org/)
 * [Terraform](https://www.terraform.io/)
 * [Ansible](https://www.ansible.com/)
