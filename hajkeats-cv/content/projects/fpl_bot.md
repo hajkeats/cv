@@ -33,7 +33,7 @@ The other main challenge came in accessing the FPL API. All the endpoints seemed
 asyncio.get_event_loop().run_until_complete(get_gameweek_fixtures(event_id))
 ```
 
-`get_gameweek_features` being the async function:
+`get_gameweek_features` being the coroutine:
 ```python
 async def get_gameweek_fixtures(event_id):
     """
