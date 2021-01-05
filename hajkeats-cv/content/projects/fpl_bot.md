@@ -45,8 +45,7 @@ async def get_gameweek_fixtures(event_id):
         fpl = FPL(session)
         await fpl.login(email=environ['FPL_EMAIL'], password=environ['FPL_PASSWORD'])
         h2h_league = await fpl.get_h2h_league(environ['LEAGUE_ID'])
-        fixtures = await h2h_league.get_fixtures(gameweek=event_id)
-    return fixtures
+        return await h2h_league.get_fixtures(gameweek=event_id)
 ```
 
 To deploy the code, a submodule of the [`python_lambda_template` repository](https://github.com/hajkeats/python_lambda_template) (which I talk about [here](/projects/python_lambda_template/)) was incorporated. Terraform is then used to launch the Lambda. Once the code is deployed in AWS, the Lambda function is triggered by a Cloudwatch Event at 9AM every morning, and depending on whether fixtures are upcoming or have just finished, a set of messages are sent to the group chat.
