@@ -1,6 +1,5 @@
 ---
 title: "CV"
-date: 2020-12-26T16:26:19Z
 ---
 
 Software and DevOps Engineer with experience as a part of an Agile team, strong soft skills and a first class Computer Science degree.
@@ -53,4 +52,12 @@ Work on enterprise Java development as part of an Agile software team. Subsequen
 ## University
 `September 2013 - 2017`  
 
-Bsc (Hons) Computer Science - University of Portsmouth - 1st Class 
+Bsc (Hons) Computer Science - University of Portsmouth - 1st Class
+
+
+
+# Interests
+---
+* [Photography](https://www.flickr.com/people/191724125@N04/)
+* Travel
+* Running

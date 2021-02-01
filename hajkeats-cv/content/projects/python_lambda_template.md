@@ -1,6 +1,6 @@
 ---
 title: "Terraform Python Lambda Template"
-date: 2021-01-01T13:00:57Z
+date: "December 2020"
 ---
 
 ### [Repository](https://github.com/hajkeats/python_lambda_template)
