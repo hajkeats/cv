@@ -1,12 +1,12 @@
 ---
 title: "Terraform Python Lambda Template"
-date: "December 2020"
+date: 2020-12-28T15:00:00Z
 ---
 
 ### [Repository](https://github.com/hajkeats/python_lambda_template)
 
 
-### Lambda ready meals
+## Lambda ready meals
 
 One of the features of AWS I'm particularly fond of is [Lambda](https://aws.amazon.com/lambda/). The ability to launch a serverless function to the cloud which can be triggered asynchronously is incredibly handy, and the platform has a tonne of potential uses. A Lambda function could form part of a large microservices architecture or data pipeline, as well as serve as the backend for a simple bot, making queries to APIs or other AWS services. Its these small nifty jobs where it really thrives. Its also a very neat and low cost way to get code off the ground quickly. 
 

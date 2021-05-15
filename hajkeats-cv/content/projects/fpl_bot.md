@@ -1,6 +1,6 @@
 ---
 title: "Fantasy Premier League Bot"
-date: "January 2021"
+date: 2021-01-04T15:00:00Z
 ---
 
 ### [Repository](https://github.com/hajkeats/fpl_bot)
@@ -27,7 +27,7 @@ Instead, I used Lambda and the [`fbchat`](https://github.com/fbchat-dev/fbchat) 
 
 _"fbchat works by emulating the browser. This means doing the exact same GET/POST requests and tricking Facebook into thinking it’s accessing the website normally. Therefore, this API requires the credentials of a Facebook account."_
 
-The `fbchat` repository is currently unmaintained, hence the hacky workaround required [in the code](https://github.com/hajkeats/fpl_bot/blob/master/src/h2h_bot.py#L11-L14). 
+The `fbchat` repository is currently unmaintained, hence the hacky workaround required [in the code](https://github.com/hajkeats/fpl_bot/blob/master/src/h2h_bot.py#L12-L15). 
 
 #### Asynchronous FPL library
 
@@ -71,3 +71,20 @@ To deploy the code, a submodule of the [`python_lambda_template` repository](htt
 
 {{< image src="/images/fpl_bot.png" alt="Another victory" >}}
 Another good gameweek for Giroud - Sandstorm!
+
+
+## Update - February
+
+### Facebook Login issues
+
+A new problem emerged a couple weeks into bot deployment where it failed to login to facebook. Manually logging into the account revealed that the security features of facebook had considered the bot's activity as suspicious and had locked the account. A password reset was required.
+
+In order to prevent this issue occuring in future, a [dynamodb](https://aws.amazon.com/dynamodb/) table was added through the terraform, which stores the most recent set of session cookies. Rather than logging in every time, the lambda attempts to use the session cookies instead to get the fbchat client.
+
+## Update - March
+
+### RIP fpl_bot
+
+_Jan 2021 - Mar 2021_
+
+FBChat no longer successfully logs into Facebook, and as such, the bot has been retired.
