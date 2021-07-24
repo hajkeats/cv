@@ -32,7 +32,7 @@ Work as a Software and DevOps engineer on mostly AWS projects. Work has included
 + Building a large scale (1000s of resources) testbed in AWS to test mobile applications across [VPCs](https://aws.amazon.com/vpc/), using [Terraform](https://www.terraform.io/) and [Ansible](https://www.ansible.com/).
 + Terraform implementation of multiple serverless architectures in AWS, using [API Gateway](https://aws.amazon.com/api-gateway/), [lambdas](https://aws.amazon.com/lambda/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/) and other AWS Services.
 + Leveraging AWS machine learning capability for sentiment analysis of text with emojis using [Comprehend](https://aws.amazon.com/comprehend/), and image recognition of live video feeds with [Rekognition](https://aws.amazon.com/rekognition/).
-+ Applying best practices for security in the cloud, as well as logging and monitoring functionality across all work using [CloudWatch](https://aws.amazon.com/cloudwatch/) and [CloudTrail](https://aws.amazon.com/cloudtrail/).
++ Applying security best practices, as well as logging and monitoring functionality across all work using [CloudWatch](https://aws.amazon.com/cloudwatch/) and [CloudTrail](https://aws.amazon.com/cloudtrail/).
 
 
 ## Graduate Engineer - [Roke](https://www.roke.co.uk/)
