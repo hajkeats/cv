@@ -9,15 +9,16 @@ Software and DevOps Engineer with experience as a part of an Agile team, strong 
 ---
 
 {{< image src="/images/python-skill.jpg" alt="Pluralsight Python skill rating" style="float:right">}}
+{{< image src="/images/aws-certified-cloud-practitioner.png" alt="AWS Certified Practitioner" style="float:right">}}
 
 * [Python](https://www.python.org/)
 * [Terraform](https://www.terraform.io/)
-* [Ansible](https://www.ansible.com/)
-* Linux - [Ubuntu](https://ubuntu.com/) and [CentOS](https://www.centos.org/) distributions
 * [AWS](https://aws.amazon.com/)
+* [Ansible](https://www.ansible.com/)
+* [Docker](https://www.docker.com/)
+* Linux - [Ubuntu](https://ubuntu.com/) and [CentOS](https://www.centos.org/) distributions
 * [Scrum](https://www.scrum.org/)
 * [Git](https://git-scm.com/)
-* Computer Networking
 
 
 # Experience
@@ -26,11 +27,13 @@ Software and DevOps Engineer with experience as a part of an Agile team, strong 
 ## Engineer - [Roke](https://www.roke.co.uk/)
 `September 2019 - Present`
 
-Work as a Software and DevOps engineer, on projects that have included:
+Work as a Software and DevOps engineer on mostly AWS projects. Work has included:
+ 
++ Building a large scale (1000s of resources) testbed in AWS to test mobile applications across [VPCs](https://aws.amazon.com/vpc/), using [Terraform](https://www.terraform.io/) and [Ansible](https://www.ansible.com/).
++ Terraform implementation of multiple serverless architectures in AWS, using [API Gateway](https://aws.amazon.com/api-gateway/), [lambdas](https://aws.amazon.com/lambda/), [SQS](https://aws.amazon.com/sqs/), [SNS](https://aws.amazon.com/sns/), [SES](https://aws.amazon.com/ses/), [DynamoDB](https://aws.amazon.com/dynamodb/) and other AWS Services.
++ Leveraging AWS machine learning capability for sentiment analysis of text with emojis using [Comprehend](https://aws.amazon.com/comprehend/), and image recognition of live video feeds with [Rekognition](https://aws.amazon.com/rekognition/).
++ Applying best practices for security in the cloud, as well as logging and monitoring functionality across all work using [CloudWatch](https://aws.amazon.com/cloudwatch/) and [CloudTrail](https://aws.amazon.com/cloudtrail/).
 
-+ Building a testbed in the cloud to test mobile applications, using infrastructure-as-code (IaC) and configuration-as-code (CaC) technologies.
-+ Writing a REST API as part of a data pipeline used to transform data.
-+ Creation of serverless [lambda](https://aws.amazon.com/lambda/) functions in order to handle a live camera feed and identify objects in frame with [Rekognition](https://aws.amazon.com/rekognition/).
 
 ## Graduate Engineer - [Roke](https://www.roke.co.uk/)
 `September 2017 - September 2019`
