@@ -16,7 +16,7 @@ Software and DevOps Engineer with experience as a part of an Agile team, strong 
 * [AWS](https://aws.amazon.com/)
 * [Ansible](https://www.ansible.com/)
 * [Docker](https://www.docker.com/)
-* Linux - [Ubuntu](https://ubuntu.com/) and [CentOS](https://www.centos.org/) distributions
+* Linux - [Ubuntu](https://ubuntu.com/) and [CentOS](https://www.centos.org/)
 * [Scrum](https://www.scrum.org/)
 * [Git](https://git-scm.com/)
 
@@ -64,3 +64,4 @@ Bsc (Hons) Computer Science - University of Portsmouth - 1st Class
 * [Photography](https://www.flickr.com/people/191724125@N04/)
 * Travel
 * Running
+* [Chess](https://www.chess.com/member/hajkeats)
